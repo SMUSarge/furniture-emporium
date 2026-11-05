@@ -3,6 +3,7 @@ body {
   margin: 5px;
   padding: 0;
   background-color: #130101;
+  background-image: url("images/furn-background.png");
 }
 header {
   text-align: center;
@@ -16,7 +17,7 @@ h2 {
 
 .tagline {
   font-style: italic;
-  color: #666;
+  color: silver;
 }
 button {
   background-color: #4caf50;
@@ -34,7 +35,7 @@ button {
 .origPrice {
   font-size: 1.25rem;
   text-decoration: line-through;
-  color: #999;
+  color: black;
 }
 
 article {
@@ -42,15 +43,15 @@ article {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #e3c06f;
 }
 
 button:hover {
-  background-color: #6c926e;
+  background-color: #aec856;
   cursor: pointer;
 }
 
-img {
-  width: 50%;
-  height: 100px;
-}
+/* img { */
+/* width: 50%;
+  height: 100px; 
+} */
