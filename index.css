@@ -2,9 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 5px;
   padding: 0;
+  background-color: #130101;
 }
 header {
   text-align: center;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 h2 {
@@ -35,7 +38,7 @@ button {
 }
 
 article {
-  border: 1px solid #ccc;
+  border: 10px solid black;
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -48,6 +51,6 @@ button:hover {
 }
 
 img {
-  width: 1024px;
-  height: auto;
+  width: 50%;
+  height: 100px;
 }
