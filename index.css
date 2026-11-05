@@ -46,3 +46,8 @@ button:hover {
   background-color: #6c926e;
   cursor: pointer;
 }
+
+img {
+  width: 1024px;
+  height: auto;
+}
