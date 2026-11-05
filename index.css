@@ -1,9 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 0;
+}
 header {
   text-align: center;
 }
 
 h2 {
   font-size: 1.25rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #666;
 }
 button {
   background-color: #4caf50;
@@ -14,7 +24,14 @@ button {
 
 .salePrice {
   font-weight: bold;
+  font-size: 1.5rem;
   color: #ff0000;
+}
+
+.origPrice {
+  font-size: 1.25rem;
+  text-decoration: line-through;
+  color: #999;
 }
 
 article {
@@ -24,6 +41,7 @@ article {
   text-align: center;
   background-color: #f9f9f9;
 }
+
 button:hover {
   background-color: #6c926e;
   cursor: pointer;
