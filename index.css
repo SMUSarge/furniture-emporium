@@ -19,8 +19,8 @@ h2 {
 }
 
 .tagline {
-  font-style: italic;
   color: silver;
+  font-style: italic;
 }
 button {
   background-color: #4caf50;
@@ -66,3 +66,9 @@ button:hover {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 } */
+.description {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-style: italic;
+}
