@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 0;
+  background-color: #130101;
+}
+header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #666;
+}
+button {
+  background-color: #4caf50;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px #999;
+}
+
+.salePrice {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff0000;
+}
+
+.origPrice {
+  font-size: 1.25rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+article {
+  border: 10px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+button:hover {
+  background-color: #6c926e;
+  cursor: pointer;
+}
+
+img {
+  width: 50%;
+  height: 100px;
+}
