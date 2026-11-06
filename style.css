@@ -37,13 +37,21 @@ button {
   text-decoration: line-through;
   color: black;
 }
-
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 article {
-  border: 10px solid black;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 10px;
   margin: 10px;
   text-align: center;
   background-color: #e3c06f;
+  width: 1000px;
 }
 
 button:hover {
@@ -51,7 +59,21 @@ button:hover {
   cursor: pointer;
 }
 
-/* img { */
-/* width: 50%;
+img {
+  /* width: 50%;
   height: 100px; 
 } */
+  border-radius: 10px;
+  box-shadow: 5px 4px 3px #999;
+  .flex-item {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
